@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_4x4mm_P0.4mm_EP2.65x2.65mm_ThermalVias"
 			(at 0 0 0)
 			(effects
 				(font
@@ -215,7 +215,7 @@
 						)
 					)
 				)
-				(number "0"
+				(number "33"
 					(effects
 						(font
 							(size 1.27 1.27)
