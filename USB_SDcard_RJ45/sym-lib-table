@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "3in1lib")(type "KiCad")(uri "/home/pc/My_WS/Study/3-in-1-USB-HUB/USB_SDcard_RJ45_LIBRARY/3in1lib.kicad_sym")(options "")(descr ""))
+)
