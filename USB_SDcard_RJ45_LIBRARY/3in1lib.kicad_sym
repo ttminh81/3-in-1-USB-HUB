@@ -833,7 +833,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 3.048 42.164 0)
+			(at 2.286 42.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -877,7 +877,7 @@
 		)
 		(symbol "CH339W_1_0"
 			(pin input line
-				(at 7.112 -34.544 90)
+				(at 5.08 -35.56 90)
 				(length 2.54)
 				(name "DP7"
 					(effects
@@ -897,8 +897,8 @@
 		)
 		(symbol "CH339W_1_1"
 			(rectangle
-				(start -31.75 28.702)
-				(end 35.56 -32.258)
+				(start -30.48 29.21)
+				(end 35.56 -33.02)
 				(stroke
 					(width 0)
 					(type solid)
@@ -908,7 +908,7 @@
 				)
 			)
 			(pin input line
-				(at -34.29 17.526 0)
+				(at -33.02 17.78 0)
 				(length 2.54)
 				(name "SD_SCK"
 					(effects
@@ -926,7 +926,7 @@
 				)
 			)
 			(pin input line
-				(at -34.29 14.986 0)
+				(at -33.02 15.24 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -944,7 +944,7 @@
 				)
 			)
 			(pin input line
-				(at -34.29 12.446 0)
+				(at -33.02 12.7 0)
 				(length 2.54)
 				(name "VSDIO"
 					(effects
@@ -962,7 +962,7 @@
 				)
 			)
 			(pin input line
-				(at -34.29 9.906 0)
+				(at -33.02 10.16 0)
 				(length 2.54)
 				(name "SD_CMD/PSELF"
 					(effects
@@ -980,7 +980,7 @@
 				)
 			)
 			(pin input line
-				(at -34.29 7.366 0)
+				(at -33.02 7.62 0)
 				(length 2.54)
 				(name "PWR_CC1"
 					(effects
@@ -998,7 +998,7 @@
 				)
 			)
 			(pin input line
-				(at -34.29 4.826 0)
+				(at -33.02 5.08 0)
 				(length 2.54)
 				(name "PWR_CC2"
 					(effects
@@ -1016,7 +1016,7 @@
 				)
 			)
 			(pin input line
-				(at -34.29 2.286 0)
+				(at -33.02 2.54 0)
 				(length 2.54)
 				(name "RESET#"
 					(effects
@@ -1034,7 +1034,7 @@
 				)
 			)
 			(pin input line
-				(at -34.29 -0.254 0)
+				(at -33.02 0 0)
 				(length 2.54)
 				(name "PD_CTL1"
 					(effects
@@ -1052,7 +1052,7 @@
 				)
 			)
 			(pin input line
-				(at -34.29 -2.794 0)
+				(at -33.02 -2.54 0)
 				(length 2.54)
 				(name "DVDDK"
 					(effects
@@ -1070,7 +1070,7 @@
 				)
 			)
 			(pin input line
-				(at -34.29 -5.334 0)
+				(at -33.02 -5.08 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1088,7 +1088,7 @@
 				)
 			)
 			(pin input line
-				(at -34.29 -7.874 0)
+				(at -33.02 -7.62 0)
 				(length 2.54)
 				(name "SRST/PWREN2#"
 					(effects
@@ -1106,7 +1106,7 @@
 				)
 			)
 			(pin input line
-				(at -34.29 -10.414 0)
+				(at -33.02 -10.16 0)
 				(length 2.54)
 				(name "VIO33"
 					(effects
@@ -1124,7 +1124,7 @@
 				)
 			)
 			(pin input line
-				(at -34.29 -12.954 0)
+				(at -33.02 -12.7 0)
 				(length 2.54)
 				(name "TRST/PWREN3#"
 					(effects
@@ -1142,7 +1142,7 @@
 				)
 			)
 			(pin input line
-				(at -34.29 -15.494 0)
+				(at -33.02 -15.24 0)
 				(length 2.54)
 				(name "TCK/PWREN4#"
 					(effects
@@ -1160,7 +1160,7 @@
 				)
 			)
 			(pin input line
-				(at -34.29 -18.034 0)
+				(at -33.02 -17.78 0)
 				(length 2.54)
 				(name "TMS/PWREN5#"
 					(effects
@@ -1178,7 +1178,7 @@
 				)
 			)
 			(pin input line
-				(at -34.29 -20.574 0)
+				(at -33.02 -20.32 0)
 				(length 2.54)
 				(name "TDO/PWREN6#"
 					(effects
@@ -1196,7 +1196,7 @@
 				)
 			)
 			(pin input line
-				(at -34.29 -23.114 0)
+				(at -33.02 -22.86 0)
 				(length 2.54)
 				(name "TDI/PWREN7#"
 					(effects
@@ -1214,25 +1214,7 @@
 				)
 			)
 			(pin input line
-				(at -22.098 31.242 270)
-				(length 2.54)
-				(name "SD_D0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "51"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -22.098 -34.544 90)
+				(at -25.4 -35.56 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1250,7 +1232,25 @@
 				)
 			)
 			(pin input line
-				(at -19.558 31.242 270)
+				(at -22.86 31.75 270)
+				(length 2.54)
+				(name "SD_D0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "51"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -20.32 31.75 270)
 				(length 2.54)
 				(name "SD_D1"
 					(effects
@@ -1268,7 +1268,7 @@
 				)
 			)
 			(pin input line
-				(at -17.018 31.242 270)
+				(at -17.78 31.75 270)
 				(length 2.54)
 				(name "SD_D2"
 					(effects
@@ -1286,7 +1286,7 @@
 				)
 			)
 			(pin input line
-				(at -15.748 -34.544 90)
+				(at -17.78 -35.56 90)
 				(length 2.54)
 				(name "MDITP"
 					(effects
@@ -1304,7 +1304,7 @@
 				)
 			)
 			(pin input line
-				(at -14.478 31.242 270)
+				(at -15.24 31.75 270)
 				(length 2.54)
 				(name "SD_D3"
 					(effects
@@ -1322,7 +1322,7 @@
 				)
 			)
 			(pin input line
-				(at -13.208 -34.544 90)
+				(at -15.24 -35.56 90)
 				(length 2.54)
 				(name "MDITN"
 					(effects
@@ -1340,7 +1340,7 @@
 				)
 			)
 			(pin input line
-				(at -11.938 31.242 270)
+				(at -12.7 31.75 270)
 				(length 2.54)
 				(name "HUB_CC"
 					(effects
@@ -1358,7 +1358,7 @@
 				)
 			)
 			(pin input line
-				(at -10.668 -34.544 90)
+				(at -12.7 -35.56 90)
 				(length 2.54)
 				(name "VDD33"
 					(effects
@@ -1376,7 +1376,7 @@
 				)
 			)
 			(pin input line
-				(at -9.398 31.242 270)
+				(at -10.16 31.75 270)
 				(length 2.54)
 				(name "CFG2/__SDVCC_E__N"
 					(effects
@@ -1394,7 +1394,7 @@
 				)
 			)
 			(pin input line
-				(at -8.128 -34.544 90)
+				(at -10.16 -35.56 90)
 				(length 2.54)
 				(name "MDIRP"
 					(effects
@@ -1412,7 +1412,7 @@
 				)
 			)
 			(pin input line
-				(at -6.858 31.242 270)
+				(at -7.62 31.75 270)
 				(length 2.54)
 				(name "MISO/OVCUR7#_"
 					(effects
@@ -1430,7 +1430,7 @@
 				)
 			)
 			(pin input line
-				(at -5.588 -34.544 90)
+				(at -7.62 -35.56 90)
 				(length 2.54)
 				(name "MDIRN"
 					(effects
@@ -1448,7 +1448,7 @@
 				)
 			)
 			(pin input line
-				(at -4.318 31.242 270)
+				(at -5.08 31.75 270)
 				(length 2.54)
 				(name "MOSI/OVCUR6#"
 					(effects
@@ -1466,7 +1466,7 @@
 				)
 			)
 			(pin input line
-				(at -3.048 -34.544 90)
+				(at -5.08 -35.56 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1484,7 +1484,7 @@
 				)
 			)
 			(pin input line
-				(at -1.778 31.242 270)
+				(at -2.54 31.75 270)
 				(length 2.54)
 				(name "SCS/OVCUR5#"
 					(effects
@@ -1502,7 +1502,7 @@
 				)
 			)
 			(pin input line
-				(at -0.508 -34.544 90)
+				(at -2.54 -35.56 90)
 				(length 2.54)
 				(name "DM6"
 					(effects
@@ -1520,7 +1520,7 @@
 				)
 			)
 			(pin input line
-				(at 0.762 31.242 270)
+				(at 0 31.75 270)
 				(length 2.54)
 				(name "SCK/OVCUR4#"
 					(effects
@@ -1538,7 +1538,7 @@
 				)
 			)
 			(pin input line
-				(at 2.032 -34.544 90)
+				(at 0 -35.56 90)
 				(length 2.54)
 				(name "DP6"
 					(effects
@@ -1556,7 +1556,7 @@
 				)
 			)
 			(pin input line
-				(at 3.302 31.242 270)
+				(at 2.54 31.75 270)
 				(length 2.54)
 				(name "PWREN1#"
 					(effects
@@ -1574,7 +1574,7 @@
 				)
 			)
 			(pin input line
-				(at 4.572 -34.544 90)
+				(at 2.54 -35.56 90)
 				(length 2.54)
 				(name "DM7"
 					(effects
@@ -1592,7 +1592,7 @@
 				)
 			)
 			(pin input line
-				(at 5.842 31.242 270)
+				(at 5.08 31.75 270)
 				(length 2.54)
 				(name "VIO33"
 					(effects
@@ -1610,7 +1610,7 @@
 				)
 			)
 			(pin input line
-				(at 8.382 31.242 270)
+				(at 7.62 31.75 270)
 				(length 2.54)
 				(name "SCL/__SMBCLK/RTS"
 					(effects
@@ -1628,7 +1628,7 @@
 				)
 			)
 			(pin input line
-				(at 9.652 -34.544 90)
+				(at 7.62 -35.56 90)
 				(length 2.54)
 				(name "VDD33"
 					(effects
@@ -1646,7 +1646,7 @@
 				)
 			)
 			(pin input line
-				(at 10.922 31.242 270)
+				(at 10.16 31.75 270)
 				(length 2.54)
 				(name "SDA/__SMBDAT/CTS"
 					(effects
@@ -1664,7 +1664,7 @@
 				)
 			)
 			(pin input line
-				(at 12.192 -34.544 90)
+				(at 10.16 -35.56 90)
 				(length 2.54)
 				(name "DMU"
 					(effects
@@ -1682,7 +1682,7 @@
 				)
 			)
 			(pin input line
-				(at 13.462 31.242 270)
+				(at 12.7 31.75 270)
 				(length 2.54)
 				(name "PD_CTL2"
 					(effects
@@ -1700,7 +1700,7 @@
 				)
 			)
 			(pin input line
-				(at 14.732 -34.544 90)
+				(at 12.7 -35.56 90)
 				(length 2.54)
 				(name "DPU"
 					(effects
@@ -1718,7 +1718,7 @@
 				)
 			)
 			(pin input line
-				(at 16.002 31.242 270)
+				(at 15.24 31.75 270)
 				(length 2.54)
 				(name "PD_CTL3"
 					(effects
@@ -1736,7 +1736,7 @@
 				)
 			)
 			(pin input line
-				(at 17.272 -34.544 90)
+				(at 15.24 -35.56 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1754,25 +1754,7 @@
 				)
 			)
 			(pin input line
-				(at 19.812 31.242 270)
-				(length 2.54)
-				(name "LED_LINK/CFG1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "35"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 19.812 -34.544 90)
+				(at 17.78 -35.56 90)
 				(length 2.54)
 				(name "XO"
 					(effects
@@ -1790,7 +1772,25 @@
 				)
 			)
 			(pin input line
-				(at 22.352 -34.544 90)
+				(at 19.05 31.75 270)
+				(length 2.54)
+				(name "LED_LINK/CFG1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 20.32 -35.56 90)
 				(length 2.54)
 				(name "XI"
 					(effects
@@ -1808,7 +1808,7 @@
 				)
 			)
 			(pin input line
-				(at 24.892 -34.544 90)
+				(at 22.86 -35.56 90)
 				(length 2.54)
 				(name "AVDDK"
 					(effects
@@ -1826,7 +1826,7 @@
 				)
 			)
 			(pin input line
-				(at 38.1 16.002 180)
+				(at 38.1 17.78 180)
 				(length 2.54)
 				(name "OVCUR1#"
 					(effects
@@ -1844,7 +1844,7 @@
 				)
 			)
 			(pin input line
-				(at 38.1 13.208 180)
+				(at 38.1 15.24 180)
 				(length 2.54)
 				(name "TXD/OVCUR2#"
 					(effects
@@ -1862,7 +1862,7 @@
 				)
 			)
 			(pin input line
-				(at 38.1 10.668 180)
+				(at 38.1 12.7 180)
 				(length 2.54)
 				(name "RXD/OVCUR3#"
 					(effects
@@ -1880,7 +1880,7 @@
 				)
 			)
 			(pin input line
-				(at 38.1 8.128 180)
+				(at 38.1 10.16 180)
 				(length 2.54)
 				(name "LED_ACT/CFG0"
 					(effects
@@ -1898,7 +1898,7 @@
 				)
 			)
 			(pin input line
-				(at 38.1 5.842 180)
+				(at 38.1 7.62 180)
 				(length 2.54)
 				(name "VDD33"
 					(effects
@@ -1916,7 +1916,7 @@
 				)
 			)
 			(pin input line
-				(at 38.1 3.302 180)
+				(at 38.1 5.08 180)
 				(length 2.54)
 				(name "DP5"
 					(effects
@@ -1934,7 +1934,7 @@
 				)
 			)
 			(pin input line
-				(at 38.1 0.762 180)
+				(at 38.1 2.54 180)
 				(length 2.54)
 				(name "DM5"
 					(effects
@@ -1952,7 +1952,7 @@
 				)
 			)
 			(pin input line
-				(at 38.1 -1.778 180)
+				(at 38.1 0 180)
 				(length 2.54)
 				(name "DP4"
 					(effects
@@ -1970,7 +1970,7 @@
 				)
 			)
 			(pin input line
-				(at 38.1 -4.318 180)
+				(at 38.1 -2.54 180)
 				(length 2.54)
 				(name "DM4"
 					(effects
@@ -1988,7 +1988,7 @@
 				)
 			)
 			(pin input line
-				(at 38.1 -6.858 180)
+				(at 38.1 -5.08 180)
 				(length 2.54)
 				(name "DP3"
 					(effects
@@ -2006,7 +2006,7 @@
 				)
 			)
 			(pin input line
-				(at 38.1 -9.398 180)
+				(at 38.1 -7.62 180)
 				(length 2.54)
 				(name "DM3"
 					(effects
@@ -2024,7 +2024,7 @@
 				)
 			)
 			(pin input line
-				(at 38.1 -11.684 180)
+				(at 38.1 -10.16 180)
 				(length 2.54)
 				(name "VDD33"
 					(effects
@@ -2042,7 +2042,7 @@
 				)
 			)
 			(pin input line
-				(at 38.1 -14.224 180)
+				(at 38.1 -12.7 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -2060,7 +2060,7 @@
 				)
 			)
 			(pin input line
-				(at 38.1 -16.764 180)
+				(at 38.1 -15.24 180)
 				(length 2.54)
 				(name "DP2"
 					(effects
@@ -2078,7 +2078,7 @@
 				)
 			)
 			(pin input line
-				(at 38.1 -19.304 180)
+				(at 38.1 -17.78 180)
 				(length 2.54)
 				(name "DM2"
 					(effects
@@ -2096,7 +2096,7 @@
 				)
 			)
 			(pin input line
-				(at 38.1 -21.59 180)
+				(at 38.1 -20.32 180)
 				(length 2.54)
 				(name "DP1"
 					(effects
@@ -2114,7 +2114,7 @@
 				)
 			)
 			(pin input line
-				(at 38.1 -24.13 180)
+				(at 38.1 -22.86 180)
 				(length 2.54)
 				(name "DM1"
 					(effects
